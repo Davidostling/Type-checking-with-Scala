@@ -1,0 +1,50 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(5e3919b0-751d-4d82-8459-bc34bbbf5bb0), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/target/scala-3.1.1/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:127:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m127 |[0m      [33mcase[0m HeadExp(ConsExp(eh, et)) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:130:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m130 |[0m      [33mcase[0m ConsExp(eh, et) => step(ConsExp(eh, et)).map(HeadExp(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:133:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m133 |[0m      [33mcase[0m TailExp(ConsExp(eh, et)) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:136:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m136 |[0m      [33mcase[0m ConsExp(eh, et) => step(ConsExp(eh, et)).map(TailExp(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:139:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m139 |[0m      [33mcase[0m NilExp(_) => None[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:141:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m141 |[0m      [33mcase[0m IsNilExp(NilExp(ty)) => Some(BoolLit([31mtrue[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:142:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m142 |[0m      [33mcase[0m IsNilExp(ConsExp(eh, et)) => Some(BoolLit([31mfalse[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:143:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m143 |[0m      [33mcase[0m IsNilExp(e) => step(e).map(HeadExp(_))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E030] Match case Unreachable Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:145:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m145 |[0m      [33mcase[0m TupleExp(el) [33mif[0m !isvalue(tree) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E121] Pattern Match Warning: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:151:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m151 |[0m      [33mcase[0m _ => None[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Unreachable case except for [31mnull[0m (if this is intentional, consider writing [33mcase[0m [31mnull[0m => instead).[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 12 maj 2022 12:08:31[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

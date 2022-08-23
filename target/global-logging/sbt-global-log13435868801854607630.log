@@ -1,0 +1,267 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(cbb9c53b-13d7-4558-8bf5-d2008d1f2cc7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestInterpreter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestLab1:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test Add-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test Add-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AddLeft-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AddRight-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App1-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App1-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App2-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App2-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AppAbs-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AppAbs-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test IfFalse-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test IfTrue-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test if-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test if-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test w.o. type check pleaseTerminate.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test w.o. type check variableCapture1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 0 COND[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 1 ABC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 2 XYZ[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestLab2:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test PlusMinus-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Some(LetExp(f,FixAppExp(LamExp(x,IntTy,PlusExp(AppExp(LamExp(f,ArrowTy(IntTy,IntTy),LamExp(x,IntTy,PlusExp(AppExp(Variable(f),Variable(x)),IntLit(1)))),Variable(x)),IntLit(1)))),AppExp(Variable(f),IntLit(2)))) did not equal Some(LetExp(f,LamExp(x,IntTy,PlusExp(AppExp(FixAppExp(LamExp(f,ArrowTy(IntTy,IntTy),LamExp(x,IntTy,PlusExp(AppExp(Variable(f),Variable(x)),IntLit(1))))),Variable(x)),IntLit(1))),AppExp(Variable(f),IntLit(2)))) (MainTestInterpreter.scala:78)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Some(value: LetExp(e1: FixAppExp(e: LamExp(e1: -> AppExp(FixAppExp(LamExp(f,ArrowTy(IntTy,IntTy),LamExp(x,IntTy,PlusExp(AppExp(Variable(f),Variable(x)),IntLit(1))))),Variable(x)), e2: -> IntLit(1), e: PlusExp(AppExp(LamExp(f,ArrowTy(IntTy,IntTy),LamExp(x,IntTy,PlusExp(AppExp(Variable(f),Variable(x)),IntLit(1)))),Variable(x)),IntLit(1)) -> , id: x -> , pos: <undefined position> -> 2.29, ty: IntTy -> ), id: -> x, pos: <undefined position> -> 2.21, ty: -> IntTy), pos: <undefined position> -> 1.1))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test fix.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test fixBeta.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Some(FixAppExp(LamExp(y,IntTy,AppExp(LamExp(x,ArrowTy(IntTy,IntTy),LamExp(y,IntTy,AppExp(Variable(x),IntLit(3)))),IntLit(3))))) did not equal Some(LamExp(y,IntTy,AppExp(FixAppExp(LamExp(x,ArrowTy(IntTy,IntTy),LamExp(y,IntTy,AppExp(Variable(x),IntLit(3))))),IntLit(3)))) (MainTestInterpreter.scala:78)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Some(value: FixAppExp(e: LamExp(e1: -> FixAppExp(LamExp(x,ArrowTy(IntTy,IntTy),LamExp(y,IntTy,AppExp(Variable(x),IntLit(3))))), e2: -> IntLit(3), e: AppExp(LamExp(x,ArrowTy(IntTy,IntTy),LamExp(y,IntTy,AppExp(Variable(x),IntLit(3)))),IntLit(3)) -> , id: y -> , pos: <undefined position> -> 1.18, ty: IntTy -> ), id: -> y, pos: <undefined position> -> 2.21, ty: -> IntTy))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test headCons.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test headStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test isNilConst.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test isNilNil.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test lessThan.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test lessThan_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Some(LtExp(IntLit(3),IntLit(3))) did not equal Some(LtExp(IntLit(3),PlusExp(IntLit(3),IntLit(1)))) (MainTestInterpreter.scala:78)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Some(value: LtExp(e2: IntLit(e1: -> IntLit(3), e2: -> IntLit(1), i: 3 -> , pos: 1.23 -> <undefined position>), pos: <undefined position> -> 1.1))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test lessThan_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test listLeftStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test listRightStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test minus.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test projRecord.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test projTuple.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepProjRecord.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepProjTuple.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepRecord.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepTuple.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test tailCons.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test tailStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test typableHeadNil.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_recfun_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  LamExp(x,BoolTy,LamExp(y,BoolTy,CondExp(Variable(x),Variable(y),BoolLit(false)))) did not equal IntLit(27) (MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  LamExp(e: LamExp(y,BoolTy,CondExp(Variable(x),Variable(y),BoolLit(false))) -> , i: -> 27, id: x -> , pos: <undefined position> -> 1.1, ty: BoolTy -> )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_3.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  NilExp(IntTy) did not equal TupleExp(List(IntLit(4), ConsExp(IntLit(5),ConsExp(IntLit(2),NilExp(IntTy))), IntLit(5), NilExp(ArrowTy(ArrowTy(ListTy(IntTy),TupleTy(List(IntTy, BoolTy, IntTy))),RecordTy(Map(abc -> IntTy, cdf -> ArrowTy(IntTy,ArrowTy(IntTy,BoolTy)))))))) (MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  NilExp(el: -> List(IntLit(4), ConsExp(IntLit(5),ConsExp(IntLit(2),NilExp(IntTy))), IntLit(5), NilExp(ArrowTy(ArrowTy(ListTy(IntTy),TupleTy(List(IntTy, BoolTy, IntTy))),RecordTy(Map(abc -> IntTy, cdf -> ArrowTy(IntTy,ArrowTy(IntTy,BoolTy))))))), pos: OffsetPosition(offset: 6 -> 79, source: "[hd 2::[int]]" -> "[// let f = fix (\f:int->int. \x:int. (f x) + 1) in[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mletrec f:int->int = \x:int. (f x) + 1 in[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mf 2]"), ty: IntTy -> )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:108)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:116)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_3.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_4.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:108)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:100)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_letin_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  IntLit(8) did not equal IntLit(10) (MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  IntLit(i: 8 -> 10, pos: <undefined position> -> 1.1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_times_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_times_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_times_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_3_factorial_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_3_factorial_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_3_factorial_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:627)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:626)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.step(Interpreter.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.interpreter.Interpreter$.eval(Interpreter.scala:397)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test add.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test app.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test app_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_3.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_4.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_5.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test headType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test if.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test if_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test isNilType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test lessThan.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test let.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test listMixedType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test listMixup.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test minus.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordMemberUntyped.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordProj.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordWrongName.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordWrongName_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tailType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tupleOutOfBound.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tupleOutOfBound_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tuple_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tuple_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test unboundVariable.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test var.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 844 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 86[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 68, failed 18, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 18 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	simpret.MainTestLab2[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 17 maj 2022 18:41:42[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

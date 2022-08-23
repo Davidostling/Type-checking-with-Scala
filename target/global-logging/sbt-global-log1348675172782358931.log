@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run src/test/sint/lab2/steptests/minus.sint, Some(f4f73ad5-4e26-4c04-9e7f-a466279493e9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/target/scala-3.1.1/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 9 maj 2022 08:54:38[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

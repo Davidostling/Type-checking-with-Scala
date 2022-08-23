@@ -1,0 +1,33 @@
+
+// n!
+
+// input, has to be n>=0
+let n = 5 in
+
+// helper functions
+let and = \x:bool. \y:bool. if x then y else false in
+let not = \x:bool. if x then false else true in
+let iszero = \x:int. and (x < 1) (not (x < 0)) in
+
+// g function for mult
+let g = \mlt:int->int->int. \x:int. \y:int. if iszero x then
+                                              0
+                                            else
+                                              y + mlt (x + -1) y
+in
+
+// times function
+let times = fix g in
+
+// g function for factorial
+let g = \fct:int->int. \n:int. if iszero n then
+                                 1
+                               else
+                                 times n (fct (n + -1))
+in
+
+// factorial function
+let factorial = fix g in
+
+// function call
+factorial n

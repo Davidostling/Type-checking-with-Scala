@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(559b47fe-597d-42e0-b435-56c3f8eb80be), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/target/scala-3.1.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E107] Syntax Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:57:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m57 |[0m      [33mcase[0m AppExp(LamExp(x, t), y) [33mif[0m isvalue(y) =>[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Wrong number of argument patterns for simpret.parser.LamExp; expected: (String, simpret.parser.ASTTY, simpret.parser.AST)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:59:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m59 |[0m        Some(substitute(t, y, x))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Found:    [1m[31m([0m[1m[31mt[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0msimpret.parser.[1m[31mASTTY[0m[1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Required: simpret.parser.[1m[32mAST[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E107] Syntax Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:91:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m    [33mcase[0m LamExp(t1, e)  =>[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Wrong number of argument patterns for simpret.parser.LamExp; expected: (String, simpret.parser.ASTTY, simpret.parser.AST)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:93:80 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m93 |[0m      [33melse[0m [33mif[0m ((t1!=x)&&(!freevariables(s).contains(t1))) LamExp(t1, substitute(e,s,x)) [34m//if y!=x and y (s) is not a free variable; avoid capturing --> recursive substitution[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    Found:    [1m[31m([0m[1m[31me[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0msimpret.parser.[1m[31mASTTY[0m[1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    Required: simpret.parser.[1m[32mAST[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:99:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m      [33melse[0m LamExp(rename, substitute(reduce(e,t1,rename), s, x)) [34m//ensures that the parameter y is ALWAYS unique enabling the capture avoiding substitution; y!=x, y is a freevariable[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    Found:    [1m[31m([0m[1m[31me[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0msimpret.parser.[1m[31mASTTY[0m[1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    Required: simpret.parser.[1m[32mAST[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E107] Syntax Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:133:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m133 |[0m    [33mcase[0m LamExp(t1, e)  =>[0m
+[0m[[0m[31merror[0m] [0m[0m    |         [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |Wrong number of argument patterns for simpret.parser.LamExp; expected: (String, simpret.parser.ASTTY, simpret.parser.AST)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:135:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m135 |[0m      [33melse[0m LamExp(t1, reduce(e, s, x))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                             Found:    [1m[31m([0m[1m[31me[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0msimpret.parser.[1m[31mASTTY[0m[1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                             Required: simpret.parser.[1m[32mAST[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E107] Syntax Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:165:17 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m165 |[0m      [33mcase[0m LamExp(id, t) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    |           [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |Wrong number of argument patterns for simpret.parser.LamExp; expected: (String, simpret.parser.ASTTY, simpret.parser.AST)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:166:31 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m166 |[0m        [33mval[0m [36mf1[0m = freevariables(t)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                               Found:    [1m[31m([0m[1m[31mt[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0msimpret.parser.[1m[31mASTTY[0m[1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                               Required: simpret.parser.[1m[32mAST[0m[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 28 apr. 2022 13:04:28[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,0 +1,100 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(4b094be9-4450-4afe-8c3c-94b8cdb0040e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/target/scala-3.1.1/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestInterpreter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestLab1:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test Add-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test Add-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AddLeft-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AddRight-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App1-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App1-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App2-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test App2-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AppAbs-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test AppAbs-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test IfFalse-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test IfTrue-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test if-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test if-1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test w.o. type check pleaseTerminate.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test w.o. type check variableCapture1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 0 COND[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 1 ABC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 2 XYZ[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestLab2:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test PlusMinus-0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test fix.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test fixBeta.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test headCons.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test headStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test isNilConst.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test isNilNil.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test lessThan.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test lessThan_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test lessThan_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test listLeftStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test listRightStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test minus.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test projRecord.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test projTuple.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepProjRecord.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepProjTuple.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepRecord.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test stepTuple.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test tailCons.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test tailStep.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- step test typableHeadNil.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_0_recfun_0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_0_square_0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_0_square_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_0_square_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_0_square_3.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_3.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_1_extensions_4.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_2_letin_0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_2_times_0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_2_times_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_2_times_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_3_factorial_0.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_3_factorial_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fixpoint test case_3_factorial_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test add.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test app.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test app_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_3.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_4.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test fix_5.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test headType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test if.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test if_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test isNilType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test lessThan.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test let.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test listMixedType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test listMixup.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test minus.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordMemberUntyped.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordProj.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordWrongName.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test recordWrongName_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tailType.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tupleOutOfBound.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tupleOutOfBound_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tuple_1.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test tuple_2.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test unboundVariable.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- typing test var.sint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 635 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 86[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 86, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 19 maj 2022 15:41:13[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

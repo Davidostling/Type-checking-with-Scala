@@ -1,0 +1,1 @@
+fix (\x:bool->int. (\y:int. x true))

@@ -1,0 +1,5 @@
+
+let list0 = [1,2,3|int] in
+
+hd tl tl tl list0
+

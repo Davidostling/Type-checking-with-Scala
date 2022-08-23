@@ -1,0 +1,24 @@
+
+// x * y
+
+// input, has to be x>=0
+let x = 12 in
+let y = -33 in
+
+// helper functions
+let and = \x:bool. \y:bool. if x then y else false in
+let not = \x:bool. if x then false else true in
+let iszero = \x:int. and (x < 1) (not (x < 0)) in
+
+// g function for mult
+let g = \mlt:int->int->int. \x:int. \y:int. if iszero x then
+                                              0
+                                            else
+                                              y + mlt (x + -1) y
+in
+
+// times function
+let times = fix g in
+
+// function call
+times x y

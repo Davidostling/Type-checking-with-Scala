@@ -1,0 +1,34 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(fafa2887-0c63-41ee-b75b-c4eabe994bf8), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/target/scala-3.1.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:142:41 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m    [33melse[0m [33mif[0m freevariables(t).contains(id)) LetExp(id, substitute(s, e1, x), e2)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                        'then' expected, but ')' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:97:13 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m97 |[0m        Some(apa)[0m
+[0m[[0m[31merror[0m] [0m[0m   |             [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |             Not found: apa[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:110:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m      [33melse[0m [33mif[0m ((t1!=x)&&(!freevariables(s).contains(t1))) LamExp(t1, ty, substitute(e,s,x)) [34m//if y!=x and y (s) is not a free variable; avoid capturing --> recursive substitution[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                          [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                          Not found: freevariables[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:116:41 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m      [33melse[0m LamExp(rename, ty, substitute(reduce(e,t1,rename), s, x)) [34m//ensures that the parameter y is ALWAYS unique enabling the capture avoiding substitution; y!=x, y is a freevariable[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         Not found: reduce[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:141:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m141 |[0m    [33mif[0m(id ==s)  LetExp(id, substitute(s, e1, x), e2)[0m
+[0m[[0m[31merror[0m] [0m[0m    |       [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |Values of types String and simpret.parser.AST cannot be compared with == or !=[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:142:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m    [33melse[0m [33mif[0m freevariables(t).contains(id)) LetExp(id, substitute(s, e1, x), e2)[0m
+[0m[[0m[31merror[0m] [0m[0m    |            [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Not found: freevariables[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 4 maj 2022 16:37:43[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

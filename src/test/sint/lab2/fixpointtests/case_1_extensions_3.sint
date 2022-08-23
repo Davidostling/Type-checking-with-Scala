@@ -1,0 +1,5 @@
+
+let record0 = {field1=3,abc=2,efg=1} in
+
+record0.efg
+

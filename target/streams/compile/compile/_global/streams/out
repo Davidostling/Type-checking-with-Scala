@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/typechecker/Typechecker.scala:140:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m140 |[0m            [33mif[0m(!(i - [31m1[0m < tyl.size) && !(i - [31m1[0m < [31m0[0m))  errProjTooBig(i, x)[0m
+[0m[[0m[31merror[0m] [0m[0m    |            [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Required: simpret.parser.ASTTY[0m
+[0m[[0m[31merror[0m] [0m[0m    |            Maybe you are missing an else part for the conditional?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,1111 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(468d3e56-4ca1-495d-ac53-32933a289e66), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestInterpreter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestLab1:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test Add-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test Add-1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test AddLeft-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test AddRight-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test App1-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test App1-1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test App2-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test App2-1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test AppAbs-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test AppAbs-1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test IfFalse-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test IfTrue-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test if-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test if-1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy1$1(MainTestLab1.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$1$$anonfun$1(MainTestLab1.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test w.o. type check pleaseTerminate.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTestNoTypeCheck(MainTestInterpreter.scala:93)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy3$1(MainTestLab1.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$3$$anonfun$1(MainTestLab1.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test w.o. type check variableCapture1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTestNoTypeCheck(MainTestInterpreter.scala:93)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy3$1(MainTestLab1.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$3$$anonfun$1(MainTestLab1.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- TestCaseLab1 0 COND *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.runcase$$anonfun$1(MainTestInterpreter.scala:127)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.Either$RightProjection.flatMap(Either.scala:757)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.runcase(MainTestInterpreter.scala:128)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.test_eval(MainTestInterpreter.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.testFun$proxy4$1(MainTestLab1.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab1.$init$$$anonfun$4(MainTestLab1.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 1 ABC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- TestCaseLab1 2 XYZ[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTestLab2:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test PlusMinus-0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test fix.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test fixBeta.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test headCons.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test headStep.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test isNilConst.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test isNilNil.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test lessThan.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test lessThan_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test lessThan_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test listLeftStep.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test listRightStep.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test minus.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test projRecord.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test projTuple.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test stepProjRecord.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test stepProjTuple.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test stepRecord.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test stepTuple.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test tailCons.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test tailStep.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- step test typableHeadNil.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTest(MainTestInterpreter.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy1$1(MainTestLab2.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$1$$anonfun$1(MainTestLab2.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_recfun_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_0_square_3.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_3.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_1_extensions_4.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_letin_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_times_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_times_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_2_times_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_3_factorial_0.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_3_factorial_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fixpoint test case_3_factorial_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.fixAutoTest(MainTestInterpreter.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy2$1(MainTestLab2.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$2$$anonfun$1(MainTestLab2.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test add.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test app.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test app_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test fix.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test fix_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test fix_3.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test fix_4.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test fix_5.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test headType.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test if.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test if_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test isNilType.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test lessThan.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test let.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test listMixedType.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test listMixup.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test minus.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test recordMemberUntyped.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test recordProj.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test recordWrongName.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test recordWrongName_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test tailType.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test tupleOutOfBound.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test tupleOutOfBound_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test tuple_1.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test tuple_2.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test unboundVariable.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- typing test var.sint *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.Exception: implement me[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.check(Typechecker.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.typechecker.Typechecker$.apply(Typechecker.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestInterpreter.singleAutoTypeTest(MainTestInterpreter.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.testFun$proxy3$1(MainTestLab2.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at simpret.MainTestLab2.$init$$$anonfun$3$$anonfun$1(MainTestLab2.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike.testImpl$$anonfun$1(AnyFunSuiteLike.scala:125)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 656 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 86[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 84, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 84 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	simpret.MainTestLab2[0m
+[0m[[0m[31merror[0m] [0m[0m	simpret.MainTestLab1[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 28 apr. 2022 13:04:13[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

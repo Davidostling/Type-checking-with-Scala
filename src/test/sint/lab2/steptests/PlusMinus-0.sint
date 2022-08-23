@@ -1,0 +1,3 @@
+// let f = fix (\f:int->int. \x:int. (f x) + 1) in
+letrec f:int->int = \x:int. (f x) + 1 in
+f 2

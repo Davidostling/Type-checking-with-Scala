@@ -1,0 +1,5 @@
+
+let tuple0 = (3,2,1) in
+
+tuple0.1
+

@@ -1,0 +1,93 @@
+let or =
+    \a:bool.
+    \b:bool.
+        if a then true else (if b then true else false)
+in
+
+letrec zip:[int]->[int]->[(int,int)] =
+    \a:[int].
+    \b:[int].
+        if (or (isnil a) (isnil b)) then
+            [(int,int)]
+        else (hd a, hd b)::(zip (tl a) (tl b))
+in
+
+let tuple2point =
+    \a:(int,int).
+        {x=a.1, y=a.2}
+in
+
+letrec map:((int,int)->{x:int, y:int})->[(int,int)]->[{x:int, y:int}] =
+    \f:(int,int)->{x:int, y:int}.
+    \l:[(int,int)].
+        if isnil l then
+            [{x:int, y:int}]
+        else
+            (f (hd l))::(map f (tl l))
+in
+
+let min =
+    \a:int.
+    \b:int.
+        if a < b then a else b
+in
+
+let max =
+    \a:int.
+    \b:int.
+        if a < b then b else a
+in
+
+let absDiff =
+    \a:int.
+    \b:int.
+        ((max a b) + -(min a b))
+in
+
+letrec times: int->int->int =
+    \a:int.
+    \b:int.
+        (if (0 < a) then (b + (times (a + -1) b)) else 0)
+in
+
+let squareDistance =
+     \a:{x:int, y:int}.
+     \b:{x:int, y:int}.
+        (\a:int.\b:int.
+            times a a + times b b) (absDiff a.x b.x) (absDiff a.y b.y)
+in
+
+let pointWithMaxDistance =
+    \ref:{x:int, y:int}.
+    \a:{x:int, y:int}.
+    \b:{x:int, y:int}.
+        let da = squareDistance ref a in
+        let db = squareDistance ref b in
+        let dmax = max da db in
+        if (db < dmax) then a else b
+in
+
+letrec reduce:({x:int, y:int} -> {x:int, y:int} -> {x:int, y:int}) -> {x:int, y:int} -> [{x:int, y:int}] -> {x:int, y:int} =
+    \f:{x:int, y:int} -> {x:int, y:int} -> {x:int, y:int}.
+    \start:{x:int, y:int}.
+    \l:[{x:int, y:int}].
+        if isnil l then
+            start
+        else
+            f (hd l) (reduce f start (tl l))
+in
+
+let pointWithMaxDistanceTo =
+    \referencePoint:{x:int, y:int}.
+    \points:[{x:int, y:int}].
+        (reduce (pointWithMaxDistance referencePoint) referencePoint points)
+in
+
+let points = map tuple2point (zip 1::4::1::4::[int] 5::6::7::[int]) in
+let referencePoint = {x = 4, y = 6} in
+pointWithMaxDistanceTo referencePoint points
+
+// solution:
+// referencePoint {x=4,y=6}, answer {x=1,y=7}
+// referencePoint {x=0,y=0}, answer {x=4,y=6}
+// does it still work if the zipped lists are swapped?

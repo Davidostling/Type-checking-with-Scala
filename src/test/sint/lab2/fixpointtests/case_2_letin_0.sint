@@ -1,0 +1,8 @@
+
+// a function
+let f = \x:int. x + 5 in
+
+// a function using and replacing the function above
+let f = \x:int. (f x) + 2 in
+
+f 3

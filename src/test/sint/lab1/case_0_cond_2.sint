@@ -1,0 +1,7 @@
+
+// we test: branch, gets stuck on IntLit
+
+if -1 then
+  11
+else
+  12

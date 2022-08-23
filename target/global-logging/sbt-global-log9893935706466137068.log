@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(9d0bf596-5b4f-4fd4-b08f-8eb7e3e002c4), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/target/scala-3.1.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/davidostling/Desktop/GROUP21/DD2481_Group21/lab2/src/main/scala/simpret/interpreter/Interpreter.scala:114:47 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m114 |[0m        [33mval[0m [36ma[0m = (el.takeWhile(isvalue(_))).size[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                  Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                  Required: Option[simpret.parser.AST][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 10 maj 2022 16:01:53[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

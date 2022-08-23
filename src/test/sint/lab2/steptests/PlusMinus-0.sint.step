@@ -1,0 +1,2 @@
+let f = \x:int. (fix (\f:int->int. \x:int. (f x) + 1) x) + 1 in
+f 2

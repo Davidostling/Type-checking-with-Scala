@@ -1,0 +1,23 @@
+
+// n^2 == (SUM k=1 to n) (2k - 1)
+
+// input, has to be n>0
+let n = 15 in
+
+// helper functions
+let and = \x:bool. \y:bool. if x then y else false in
+let not = \x:bool. if x then false else true in
+let iszero = \x:int. and (x < 1) (not (x < 0)) in
+
+// g function for square
+let g = \sq:int->int. \n:int. if iszero (n + -1) then
+                                1
+                              else
+                                n + n + -1 + sq (n + -1)
+in
+
+// square function
+let square = fix g in
+
+// function call
+square n

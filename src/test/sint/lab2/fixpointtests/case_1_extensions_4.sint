@@ -1,0 +1,12 @@
+
+let list0 = [1,2,3|int] in
+
+let f = \x:int. x + 7 in
+
+letrec map:(int->int)->[int]->[int] = \f:int->int. \l:[int]. if isnil l then
+                                                        [int]
+                                                      else
+                                                        (f (hd l))::(map f (tl l))
+in
+
+map f list0
